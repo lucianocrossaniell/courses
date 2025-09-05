@@ -1,0 +1,10 @@
+answer_question:
+  description: >
+    Answer the user's question: {question}
+    
+    Provide a comprehensive, accurate, and well-structured answer. If you're uncertain about 
+    any aspect of the question, acknowledge the uncertainty and provide the best possible 
+    response based on available information.
+  expected_output: >
+    A clear, accurate, and helpful answer to the user's question. The response should be 
+    well-structured, informative, and directly address what the user is asking about.
