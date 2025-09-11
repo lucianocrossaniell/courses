@@ -1,9 +1,9 @@
-# Only track docker directory
+# Only track Docker directory
 # Ignore everything at root level
 /*
 
-# But don't ignore the docker directory
-!/docker/
+# But don't ignore the Docker directory
+!/Docker/
 
 # Don't ignore this .gitignore file itself
 !.gitignore
