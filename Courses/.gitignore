@@ -1,0 +1,44 @@
+# Only track Docker/KodeClaude-docker-beginner directory
+# Ignore everything at root level
+/*
+
+# But don't ignore the Docker directory
+!/Docker/
+
+# Inside Docker, ignore everything except KodeKloud-docker-beginner
+/Docker/*
+!/Docker/KodeKloud-docker-beginner/
+
+# Don't ignore this .gitignore file itself
+!.gitignore
+
+# Don't ignore README.md if it exists
+!README.md
+
+# General ignores for system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
