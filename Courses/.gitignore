@@ -1,18 +1,14 @@
-# Only track Docker/KodeClaude-docker-beginner directory
+# Only track docker directory
 # Ignore everything at root level
 /*
 
-# But don't ignore the Docker directory
-!/Docker/
-
-# Inside Docker, ignore everything except KodeKloud-docker-beginner
-/Docker/*
-!/Docker/KodeKloud-docker-beginner/
+# But don't ignore the docker directory
+!/docker/
 
 # Don't ignore this .gitignore file itself
 !.gitignore
 
-# Don't ignore README.md if it exists
+# Don't ignore README.md if it exists at root
 !README.md
 
 # General ignores for system files
